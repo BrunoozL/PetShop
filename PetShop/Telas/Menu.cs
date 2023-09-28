@@ -21,5 +21,15 @@ namespace PetShop.Telas
         {
             Application.Exit();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Inicio inicio = new Inicio();
+            inicio.Show();
+
+            this.Hide();
+            Menu menu = new Menu();
+            menu.Close();
+        }
     }
 }

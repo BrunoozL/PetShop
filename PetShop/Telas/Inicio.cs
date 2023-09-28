@@ -25,6 +25,16 @@ namespace PetShop.Telas
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
+            Menu menu = new Menu();
+            menu.Show();
+            
+            this.Hide();
+            Inicio inicio = new Inicio();
+            inicio.Close();
+        }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
 
         }
     }
